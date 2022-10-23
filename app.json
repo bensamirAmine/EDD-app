@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "EDD",
+    "slug": "EDD",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/capture.png",
+    "splash": {
+      "image": "./assets/capture.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/capture.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.bensamir.EDD"
+    },
+    "web": {
+      "favicon": "./assets/capture.png"
+    }
+  }
+}
